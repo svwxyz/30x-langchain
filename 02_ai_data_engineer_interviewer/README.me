@@ -1,0 +1,33 @@
+Concepts: everything above + Pydantic + structured output
+
+Task:
+
+User enters a topic.
+AI generates one interview question.
+User answers.
+AI evaluates the answer.
+Return:
+What was correct
+What was missed
+Better answer
+Score /10
+
+Architecture:
+
+Topic
+ ↓
+Question Prompt
+ ↓
+LLM
+ ↓
+Question
+ ↓
+User Answer
+ ↓
+Review Prompt
+ ↓
+LLM
+ ↓
+Pydantic
+ ↓
+Structured Review
