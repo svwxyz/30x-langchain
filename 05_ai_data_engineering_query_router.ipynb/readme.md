@@ -17,20 +17,7 @@ General Data Engineering
 
 Then sends the question to the appropriate chain.
 
-Architecture
-                         User Question
-                              ↓
-                        Classify Topic
-                              ↓
-              ┌───────────────┼───────────────┐
-              ↓               ↓               ↓
-            SQL            PySpark          Python
-              ↓               ↓               ↓
-         SQL Expert      PySpark Expert   Python Expert
-              ↓               ↓               ↓
-              └───────────────┬───────────────┘
-                              ↓
-                           Answer
+
 Your task
 
 Use:
