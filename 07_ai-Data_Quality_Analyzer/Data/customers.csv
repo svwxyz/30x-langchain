@@ -1,0 +1,13 @@
+customer_id,name,email,age,city,created_at
+101,Rahul,rahul@gmail.com,25,Delhi,2026-01-01
+102,Priya,priya@gmail.com,31,Mumbai,2026-01-02
+103,Amit,,28,Delhi,2026-01-03
+104,,neha@gmail.com,24,Bangalore,2026-01-04
+105,Rohit,rohit@gmail.com,-5,Delhi,2026-01-05
+106,Ankit,ankit@gmail,35,Mumbai,2026-01-06
+107,Sumit,sumit@gmail.com,150,Delhi,2026-01-07
+108,Pooja,pooja@gmail.com,29,,2026-01-08
+109,Ravi,ravi@gmail.com,32,Delhi,invalid_date
+110,Rahul,rahul@gmail.com,25,Delhi,2026-01-01
+111,Neha,neha@gmail.com,,Mumbai,2026-01-10
+112,Arjun,arjun@gmail.com,27,Delhi,2026-01-11
